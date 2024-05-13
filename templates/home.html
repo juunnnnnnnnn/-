@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 블로그</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/main.css') }}">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="calendar.css">
+    
+</head>
+<body>
+    <div class="audio-player-container">
+        <audio src="piano.mp3" controls>
+        </audio>
+    </div>
+    <header>
+        <div class="headd">
+            <h1 class="photo-title">홈</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">홈</a></li>
+                    <li><a href="photo.html">사진첩</a></li>
+                    <li><a href="memo.html">메모장</a></li>
+                    <li><a href="post.html">방명록</a></li>
+                    <li><a href="news.html">뉴스</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <p class="todo-item"><a href="memo.html"><i class="far fa-sticky-note"></i>&nbsp;메모장</a></p>
+        <p class="news-item"><a href="news.html"><i class="fas fa-newspaper"></i></i>&nbsp;뉴스</a></p>
+        <p class="post-item"><a href="post.html"><i class="fas fa-book"></i></i>&nbsp;방명록</a></p>
+        <p class="photo-item"><a href="photo.html"><i class="fas fa-images"></i></i>&nbsp;사진첩</a></p>
+        <img src="march.jpg" alt="이미지가 없나봐요.."class="custom-image">
+        <img src="lion.svg"class="lion">
+        
+        
+    </main>
+    <script src="background.js"></script>
+    <footer>
+        <div class="container">
+            <p><a href="http://xn--cm2b75b81inxhbe1l821a.xn--h32bi4v.xn--3e0b707e/"class="instagram-link">영감을 받은 웹사이트</a></p>
+        </div>
+    </footer>
+</body>
+</html>
