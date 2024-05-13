@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#entries {
+    margin-top: 20px;
+}
+#entries {
+    background-image: url('노란색 메모장 이미지 URL');
+    background-size: cover; /* 배경 이미지가 div를 전체적으로 커버하도록 설정 */
+    background-position: center; /* 이미지를 중앙에 배치 */
+    min-height: 200px; /* 최소 높이 설정, 필요에 따라 조정 */
+    padding: 20px; /* 내용과 경계 사이에 여백 추가 */
+    color: #000; /* 글자 색상 설정, 필요에 따라 변경 */
+    font-family: 'Arial', sans-serif; /* 글꼴 설정, 필요에 따라 변경 */
+}

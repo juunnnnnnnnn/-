@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 블로그</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <h1 class="photo-title">메모장</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">홈</a></li>
+                    <li><a href="photo.html">사진첩</a></li>
+                    <li><a href="memo.html">메모장</a></li>
+                    <li><a href="post.html">방명록</a></li>
+                    <li><a href="news.html">뉴스</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="audio-player-container">
+            <audio src="piano.mp3" controls>
+            </audio>
+    </header>
+    
+    <br><br>
+    <div class="container">
+        <input type="text" id="memoInput" placeholder="메모를 입력하세요...">
+        <button onclick="addMemo()">입력</button>
+        <div id="memoList"></div>
+    </div>
+    <script src="scripts.js"></script>
+    <footer>
+        <div class="container">
+            <p><a href="http://xn--cm2b75b81inxhbe1l821a.xn--h32bi4v.xn--3e0b707e/"class="instagram-link">영감을 받은 웹사이트</a></p>
+        </div>
+    </footer>
+</body>
+</html>
